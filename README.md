@@ -368,7 +368,7 @@ cagri-bildirim-ajani/
 │   ├── ornek_cagrilar/         # 6 transkript + 2 ses kaydı
 │   └── degerlendirme/          # 42 vakalık altın etiketli set + sonuçlar
 ├── docs/ekran_goruntuleri/
-└── tests/                      # 48 birim/entegrasyon testi (sahte LLM ile)
+└── tests/                      # 49 birim/entegrasyon testi (sahte LLM ile)
 ```
 
 ## Sınırlamalar ve sonraki adımlar

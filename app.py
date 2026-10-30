@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import html
 import json
 import queue
 import tempfile
@@ -69,8 +70,7 @@ def ornek_dosyalar() -> list[Path]:
 
 def iz_html(e: IzOlayi) -> str:
     etiket, renk = IZ_ETIKETI.get(e.tur, ("•", "#52514e"))
-    mesaj = e.mesaj.replace("<", "&lt;").replace(">", "&gt;")
-    return f'<div class="iz-satir"><span class="iz-etiket" style="background:{renk}">{etiket}</span><span class="iz-ajan">{e.ajan}</span> — {mesaj}</div>'
+    return f'<div class="iz-satir"><span class="iz-etiket" style="background:{renk}">{etiket}</span><span class="iz-ajan">{html.escape(e.ajan)}</span> — {html.escape(e.mesaj)}</div>'
 
 
 def canli_calistir(gorev: Callable[[Callable[[IzOlayi], None]], AnalizSonucu], baslik: str) -> AnalizSonucu | None:
@@ -113,7 +113,8 @@ def bar_grafik(sayilar: dict[str, int], baslik: str) -> alt.Chart:
 
 def alan_karti(baslik: str, deger: str, alt_metin: str) -> None:
     st.markdown(
-        f'<div class="alan-kart"><div class="baslik">{baslik}</div><div class="deger">{deger or "—"}</div><div class="alt">{alt_metin}</div></div>',
+        f'<div class="alan-kart"><div class="baslik">{html.escape(baslik)}</div><div class="deger">{html.escape(deger) or "—"}</div>'
+        f'<div class="alt">{html.escape(alt_metin)}</div></div>',
         unsafe_allow_html=True,
     )
 
@@ -184,7 +185,8 @@ with sekme_analiz:
                 if not asr_kullanilabilir():
                     st.error("Konuşma tanıma için: pip install -r requirements-asr.txt")
                 else:
-                    gecici = Path(tempfile.mkdtemp()) / yuklenen.name
+                    # İstemciden gelen yol bilgisi atılır; dosya adı yalnızca meta veri (tarih/temsilci) için korunur
+                    gecici = Path(tempfile.mkdtemp()) / Path(yuklenen.name).name
                     gecici.write_bytes(yuklenen.getbuffer())
                     ses_yolu = gecici
                     st.audio(yuklenen)
@@ -227,7 +229,7 @@ with sekme_analiz:
 
             with st.expander("Gerekçeler (ajanların transkriptten kanıtı)"):
                 for alan, a in sonuc.alanlar.items():
-                    st.markdown(f"**{ALAN_BASLIKLARI[alan]}** — {a.gerekce or '—'}  \n<span style='color:#6b6a65;font-size:.8rem'>{a.kaynak}, güven %{a.confidence}</span>", unsafe_allow_html=True)
+                    st.markdown(f"**{ALAN_BASLIKLARI[alan]}** — {html.escape(a.gerekce) or '—'}  \n<span style='color:#6b6a65;font-size:.8rem'>{html.escape(a.kaynak)}, güven %{a.confidence}</span>", unsafe_allow_html=True)
             with st.expander("Planlayıcının planı"):
                 st.json(sonuc.plan.model_dump())
             with st.expander(f"Tam ajan izi ({len(sonuc.iz)} olay)"):

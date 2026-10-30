@@ -68,3 +68,10 @@ def test_degerlendirme_karsilastirma():
     assert alan_dogru_mu("bildirim_sahibi", "Ayşe Kaya", "Ayşe")
     assert alan_dogru_mu("bildirim_sahibi", "", "")
     assert not alan_dogru_mu("bildirim_sahibi", "", "Ayşe")
+
+
+def test_excel_formul_enjeksiyonu_calismaz(tmp_path):
+    satirlar = numaralandir([{"tarih": "2026-09-01", "bildirim_detayi": "=HYPERLINK(\"http://ornek\")", "bildirim_turu": "Diğer"}])
+    yol = excel_yaz(satirlar, tmp_path / "r.xlsx")
+    hucre = load_workbook(yol)["Kümüle"]["K2"]
+    assert hucre.data_type == "s" and hucre.value.startswith("=HYPERLINK")

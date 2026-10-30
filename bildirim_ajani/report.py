@@ -142,6 +142,8 @@ def excel_yaz(satirlar: list[dict[str, Any]], yol: Path, stats: dict[str, Any] |
             if anahtar == "insan_onayi_gerekli":
                 deger = "Evet" if deger else "Hayır"
             hucre = ws.cell(row=r, column=c, value=deger)
+            if isinstance(deger, str):
+                hucre.data_type = "s"  # "=..." ile başlayan model çıktısı formül olarak çalışmasın
             hucre.alignment = Alignment(wrap_text=anahtar == "bildirim_detayi", vertical="top")
             if satir.get("insan_onayi_gerekli"):
                 hucre.fill = onay_dolgu
