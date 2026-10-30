@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="817pt" height="567pt" viewBox="0.00 0.00 816.59 567.44">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 563.44)">
+<g id="clust1" class="cluster">
+<title>cluster_uzman</title>
+<path fill="none" stroke="#d9d8d2" d="M77.04,-231.36C77.04,-231.36 521.04,-231.36 521.04,-231.36 527.04,-231.36 533.04,-237.36 533.04,-243.36 533.04,-243.36 533.04,-300.48 533.04,-300.48 533.04,-306.48 527.04,-312.48 521.04,-312.48 521.04,-312.48 77.04,-312.48 77.04,-312.48 71.04,-312.48 65.04,-306.48 65.04,-300.48 65.04,-300.48 65.04,-243.36 65.04,-243.36 65.04,-237.36 71.04,-231.36 77.04,-231.36"></path>
+<text text-anchor="middle" x="299.04" y="-297.68" font-family="Helvetica,sans-Serif" font-size="12.00">Uzman ajanlar (paralel)</text>
+</g>
+<!-- ses -->
+<g id="node1" class="node">
+<title>ses</title>
+<path fill="#ffffff" stroke="#c9c8c1" d="M319.43,-559.44C319.43,-559.44 198.66,-559.44 198.66,-559.44 192.66,-559.44 186.66,-553.44 186.66,-547.44 186.66,-547.44 186.66,-528.72 186.66,-528.72 186.66,-522.72 192.66,-516.72 198.66,-516.72 198.66,-516.72 319.43,-516.72 319.43,-516.72 325.43,-516.72 331.43,-522.72 331.43,-528.72 331.43,-528.72 331.43,-547.44 331.43,-547.44 331.43,-553.44 325.43,-559.44 319.43,-559.44"></path>
+<text text-anchor="middle" x="259.04" y="-541.98" font-family="Helvetica,sans-Serif" font-size="13.00">Ses kaydı</text>
+<text text-anchor="middle" x="259.04" y="-526.38" font-family="Helvetica,sans-Serif" font-size="13.00">Whisper + Rol Ajanı</text>
+</g>
+<!-- on -->
+<g id="node3" class="node">
+<title>on</title>
+<path fill="#ffffff" stroke="#c9c8c1" d="M443.15,-483.72C443.15,-483.72 212.94,-483.72 212.94,-483.72 206.94,-483.72 200.94,-477.72 200.94,-471.72 200.94,-471.72 200.94,-453 200.94,-453 200.94,-447 206.94,-441 212.94,-441 212.94,-441 443.15,-441 443.15,-441 449.15,-441 455.15,-447 455.15,-453 455.15,-453 455.15,-471.72 455.15,-471.72 455.15,-477.72 449.15,-483.72 443.15,-483.72"></path>
+<text text-anchor="middle" x="328.04" y="-466.26" font-family="Helvetica,sans-Serif" font-size="13.00">Ön işleme</text>
+<text text-anchor="middle" x="328.04" y="-450.66" font-family="Helvetica,sans-Serif" font-size="13.00">kişisel veri maskeleme · ASR düzeltme</text>
+</g>
+<!-- ses&#45;&gt;on -->
+<g id="edge1" class="edge">
+<title>ses-&gt;on</title>
+<path fill="none" stroke="#8a8984" d="M278.26,-516.54C285.9,-508.39 294.79,-498.89 302.93,-490.2"></path>
+<polygon fill="#8a8984" stroke="#8a8984" points="304.66,-491.93 307.65,-485.15 301.08,-488.58 304.66,-491.93"></polygon>
+</g>
+<!-- metin -->
+<g id="node2" class="node">
+<title>metin</title>
+<path fill="#ffffff" stroke="#c9c8c1" d="M427.9,-556.08C427.9,-556.08 368.19,-556.08 368.19,-556.08 362.19,-556.08 356.19,-550.08 356.19,-544.08 356.19,-544.08 356.19,-532.08 356.19,-532.08 356.19,-526.08 362.19,-520.08 368.19,-520.08 368.19,-520.08 427.9,-520.08 427.9,-520.08 433.9,-520.08 439.9,-526.08 439.9,-532.08 439.9,-532.08 439.9,-544.08 439.9,-544.08 439.9,-550.08 433.9,-556.08 427.9,-556.08"></path>
+<text text-anchor="middle" x="398.04" y="-534.18" font-family="Helvetica,sans-Serif" font-size="13.00">Transkript</text>
+</g>
+<!-- metin&#45;&gt;on -->
+<g id="edge2" class="edge">
+<title>metin-&gt;on</title>
+<path fill="none" stroke="#8a8984" d="M381.46,-519.61C373.09,-510.79 362.75,-499.91 353.41,-490.07"></path>
+<polygon fill="#8a8984" stroke="#8a8984" points="355.39,-488.6 348.79,-485.21 351.83,-491.97 355.39,-488.6"></polygon>
+</g>
+<!-- plan -->
+<g id="node4" class="node">
+<title>plan</title>
+<path fill="#efedfb" stroke="#c9c8c1" d="M388.08,-400.2C388.08,-400.2 268.01,-400.2 268.01,-400.2 262.01,-400.2 256.01,-394.2 256.01,-388.2 256.01,-388.2 256.01,-369.48 256.01,-369.48 256.01,-363.48 262.01,-357.48 268.01,-357.48 268.01,-357.48 388.08,-357.48 388.08,-357.48 394.08,-357.48 400.08,-363.48 400.08,-369.48 400.08,-369.48 400.08,-388.2 400.08,-388.2 400.08,-394.2 394.08,-400.2 388.08,-400.2"></path>
+<text text-anchor="middle" x="328.04" y="-382.74" font-family="Helvetica,sans-Serif" font-size="13.00">Planlayıcı Ajan</text>
+<text text-anchor="middle" x="328.04" y="-367.14" font-family="Helvetica,sans-Serif" font-size="13.00">rota + gerekli ajanlar</text>
+</g>
+<!-- on&#45;&gt;plan -->
+<g id="edge3" class="edge">
+<title>on-&gt;plan</title>
+<path fill="none" stroke="#8a8984" d="M328.04,-440.79C328.04,-431.21 328.04,-419.64 328.04,-409.16"></path>
+<polygon fill="#8a8984" stroke="#8a8984" points="330.49,-409.2 328.04,-402.2 325.59,-409.2 330.49,-409.2"></polygon>
+</g>
+<!-- fon -->
+<g id="node8" class="node">
+<title>fon</title>
+<path fill="#ffffff" stroke="#c9c8c1" d="M398.01,-282.08C398.01,-282.08 258.08,-282.08 258.08,-282.08 252.08,-282.08 246.08,-276.08 246.08,-270.08 246.08,-270.08 246.08,-251.36 246.08,-251.36 246.08,-245.36 252.08,-239.36 258.08,-239.36 258.08,-239.36 398.01,-239.36 398.01,-239.36 404.01,-239.36 410.01,-245.36 410.01,-251.36 410.01,-251.36 410.01,-270.08 410.01,-270.08 410.01,-276.08 404.01,-282.08 398.01,-282.08"></path>
+<text text-anchor="middle" x="328.04" y="-264.62" font-family="Helvetica,sans-Serif" font-size="13.00">Fon Kodu</text>
+<text text-anchor="middle" x="328.04" y="-249.02" font-family="Helvetica,sans-Serif" font-size="13.00">kod tarama · fon arama</text>
+</g>
+<!-- plan&#45;&gt;fon -->
+<g id="edge5" class="edge">
+<title>plan-&gt;fon</title>
+<path fill="none" stroke="#8a8984" d="M328.04,-357.08C328.04,-346.86 328.04,-333.96 328.04,-320.99"></path>
+<polygon fill="#8a8984" stroke="#8a8984" points="330.49,-320.99 328.04,-313.99 325.59,-320.99 330.49,-320.99"></polygon>
+</g>
+<!-- haf -->
+<g id="node5" class="node">
+<title>haf</title>
+<path fill="#eef4fc" stroke="#c9c8c1" d="M180.09,-408C180.09,-408 12,-408 12,-408 6,-408 0,-402 0,-396 0,-396 0,-361.68 0,-361.68 0,-355.68 6,-349.68 12,-349.68 12,-349.68 180.09,-349.68 180.09,-349.68 186.09,-349.68 192.09,-355.68 192.09,-361.68 192.09,-361.68 192.09,-396 192.09,-396 192.09,-402 186.09,-408 180.09,-408"></path>
+<text text-anchor="middle" x="96.04" y="-390.54" font-family="Helvetica,sans-Serif" font-size="13.00">Hafıza (SQLite)</text>
+<text text-anchor="middle" x="96.04" y="-374.94" font-family="Helvetica,sans-Serif" font-size="13.00">tekrar işleme · tekrar arayan</text>
+<text text-anchor="middle" x="96.04" y="-359.34" font-family="Helvetica,sans-Serif" font-size="13.00">iş birimi düzeltmeleri</text>
+</g>
+<!-- haf&#45;&gt;plan -->
+<g id="edge4" class="edge">
+<title>haf-&gt;plan</title>
+<path fill="none" stroke="#8a8984" stroke-dasharray="5,2" d="M192.42,-378.84C210.77,-378.84 229.8,-378.84 247.59,-378.84"></path>
+<polygon fill="#8a8984" stroke="#8a8984" points="247.16,-381.29 254.16,-378.84 247.16,-376.39 247.16,-381.29"></polygon>
+<text text-anchor="middle" x="224.05" y="-385.14" font-family="Helvetica,sans-Serif" font-size="11.00"> geçmiş</text>
+</g>
+<!-- sin -->
+<g id="node7" class="node">
+<title>sin</title>
+<path fill="#ffffff" stroke="#c9c8c1" d="M209.42,-282.08C209.42,-282.08 84.66,-282.08 84.66,-282.08 78.66,-282.08 72.66,-276.08 72.66,-270.08 72.66,-270.08 72.66,-251.36 72.66,-251.36 72.66,-245.36 78.66,-239.36 84.66,-239.36 84.66,-239.36 209.42,-239.36 209.42,-239.36 215.42,-239.36 221.42,-245.36 221.42,-251.36 221.42,-251.36 221.42,-270.08 221.42,-270.08 221.42,-276.08 215.42,-282.08 209.42,-282.08"></path>
+<text text-anchor="middle" x="147.04" y="-264.62" font-family="Helvetica,sans-Serif" font-size="13.00">Sınıflandırma</text>
+<text text-anchor="middle" x="147.04" y="-249.02" font-family="Helvetica,sans-Serif" font-size="13.00">tür · konu · muhatap</text>
+</g>
+<!-- haf&#45;&gt;sin -->
+<g id="edge7" class="edge">
+<title>haf-&gt;sin</title>
+<path fill="none" stroke="#8a8984" stroke-dasharray="5,2" d="M108.52,-349.43C112.42,-340.55 116.88,-330.4 121.34,-320.24"></path>
+<polygon fill="#8a8984" stroke="#8a8984" points="123.57,-321.26 124.14,-313.86 119.09,-319.29 123.57,-321.26"></polygon>
+<text text-anchor="middle" x="142.33" y="-323.78" font-family="Helvetica,sans-Serif" font-size="11.00"> few-shot</text>
+</g>
+<!-- rag -->
+<g id="node6" class="node">
+<title>rag</title>
+<path fill="#eef4fc" stroke="#c9c8c1" d="M552.56,-400.2C552.56,-400.2 437.53,-400.2 437.53,-400.2 431.53,-400.2 425.53,-394.2 425.53,-388.2 425.53,-388.2 425.53,-369.48 425.53,-369.48 425.53,-363.48 431.53,-357.48 437.53,-357.48 437.53,-357.48 552.56,-357.48 552.56,-357.48 558.56,-357.48 564.56,-363.48 564.56,-369.48 564.56,-369.48 564.56,-388.2 564.56,-388.2 564.56,-394.2 558.56,-400.2 552.56,-400.2"></path>
+<text text-anchor="middle" x="495.04" y="-382.74" font-family="Helvetica,sans-Serif" font-size="13.00">Kural Kitabı RAG</text>
+<text text-anchor="middle" x="495.04" y="-367.14" font-family="Helvetica,sans-Serif" font-size="13.00">embedding + BM25</text>
+</g>
+<!-- rag&#45;&gt;fon -->
+<g id="edge6" class="edge">
+<title>rag-&gt;fon</title>
+<path fill="none" stroke="#8a8984" stroke-dasharray="5,2" d="M465.19,-357.08C449.09,-345.89 428.38,-331.48 407.95,-317.28"></path>
+<polygon fill="#8a8984" stroke="#8a8984" points="409.43,-315.33 402.28,-313.34 406.63,-319.35 409.43,-315.33"></polygon>
+<text text-anchor="middle" x="450.97" y="-323.78" font-family="Helvetica,sans-Serif" font-size="11.00"> kurallar</text>
+</g>
+<!-- oz -->
+<g id="node10" class="node">
+<title>oz</title>
+<path fill="#ffffff" stroke="#c9c8c1" d="M370.91,-206.36C370.91,-206.36 285.18,-206.36 285.18,-206.36 279.18,-206.36 273.18,-200.36 273.18,-194.36 273.18,-194.36 273.18,-175.64 273.18,-175.64 273.18,-169.64 279.18,-163.64 285.18,-163.64 285.18,-163.64 370.91,-163.64 370.91,-163.64 376.91,-163.64 382.91,-169.64 382.91,-175.64 382.91,-175.64 382.91,-194.36 382.91,-194.36 382.91,-200.36 376.91,-206.36 370.91,-206.36"></path>
+<text text-anchor="middle" x="328.04" y="-188.9" font-family="Helvetica,sans-Serif" font-size="13.00">Özet Ajanı</text>
+<text text-anchor="middle" x="328.04" y="-173.3" font-family="Helvetica,sans-Serif" font-size="13.00">bildirim detayı</text>
+</g>
+<!-- fon&#45;&gt;oz -->
+<g id="edge8" class="edge">
+<title>fon-&gt;oz</title>
+<path fill="none" stroke="#8a8984" d="M328.04,-231.36C328.04,-226.05 328.04,-220.48 328.04,-215.13"></path>
+<polygon fill="#8a8984" stroke="#8a8984" points="330.49,-215.19 328.04,-208.19 325.59,-215.19 330.49,-215.19"></polygon>
+</g>
+<!-- kim -->
+<g id="node9" class="node">
+<title>kim</title>
+<path fill="#ffffff" stroke="#c9c8c1" d="M513.53,-282.08C513.53,-282.08 446.56,-282.08 446.56,-282.08 440.56,-282.08 434.56,-276.08 434.56,-270.08 434.56,-270.08 434.56,-251.36 434.56,-251.36 434.56,-245.36 440.56,-239.36 446.56,-239.36 446.56,-239.36 513.53,-239.36 513.53,-239.36 519.53,-239.36 525.53,-245.36 525.53,-251.36 525.53,-251.36 525.53,-270.08 525.53,-270.08 525.53,-276.08 519.53,-282.08 513.53,-282.08"></path>
+<text text-anchor="middle" x="480.04" y="-264.62" font-family="Helvetica,sans-Serif" font-size="13.00">Kimlik</text>
+<text text-anchor="middle" x="480.04" y="-249.02" font-family="Helvetica,sans-Serif" font-size="13.00">arayan adı</text>
+</g>
+<!-- km -->
+<g id="node11" class="node">
+<title>km</title>
+<path fill="#fdf3e1" stroke="#c9c8c1" d="M366.21,-130.64C366.21,-130.64 289.87,-130.64 289.87,-130.64 283.87,-130.64 277.87,-124.64 277.87,-118.64 277.87,-118.64 277.87,-99.92 277.87,-99.92 277.87,-93.92 283.87,-87.92 289.87,-87.92 289.87,-87.92 366.21,-87.92 366.21,-87.92 372.21,-87.92 378.21,-93.92 378.21,-99.92 378.21,-99.92 378.21,-118.64 378.21,-118.64 378.21,-124.64 372.21,-130.64 366.21,-130.64"></path>
+<text text-anchor="middle" x="328.04" y="-113.18" font-family="Helvetica,sans-Serif" font-size="13.00">Kural Motoru</text>
+<text text-anchor="middle" x="328.04" y="-97.58" font-family="Helvetica,sans-Serif" font-size="13.00">deterministik</text>
+</g>
+<!-- oz&#45;&gt;km -->
+<g id="edge9" class="edge">
+<title>oz-&gt;km</title>
+<path fill="none" stroke="#8a8984" d="M328.04,-163.46C328.04,-156.02 328.04,-147.46 328.04,-139.41"></path>
+<polygon fill="#8a8984" stroke="#8a8984" points="330.49,-139.47 328.04,-132.47 325.59,-139.47 330.49,-139.47"></polygon>
+</g>
+<!-- den -->
+<g id="node12" class="node">
+<title>den</title>
+<path fill="#fdeee8" stroke="#c9c8c1" d="M516.22,-127.28C516.22,-127.28 439.87,-127.28 439.87,-127.28 433.87,-127.28 427.87,-121.28 427.87,-115.28 427.87,-115.28 427.87,-103.28 427.87,-103.28 427.87,-97.28 433.87,-91.28 439.87,-91.28 439.87,-91.28 516.22,-91.28 516.22,-91.28 522.22,-91.28 528.22,-97.28 528.22,-103.28 528.22,-103.28 528.22,-115.28 528.22,-115.28 528.22,-121.28 522.22,-127.28 516.22,-127.28"></path>
+<text text-anchor="middle" x="478.04" y="-105.38" font-family="Helvetica,sans-Serif" font-size="13.00">Denetçi Ajan</text>
+</g>
+<!-- km&#45;&gt;den -->
+<g id="edge10" class="edge">
+<title>km-&gt;den</title>
+<path fill="none" stroke="#8a8984" d="M378.44,-109.28C391.97,-109.28 405.5,-109.28 419.04,-109.28"></path>
+<polygon fill="#8a8984" stroke="#8a8984" points="418.95,-111.73 425.95,-109.28 418.95,-106.83 418.95,-111.73"></polygon>
+</g>
+<!-- rev -->
+<g id="node13" class="node">
+<title>rev</title>
+<path fill="#fde9f0" stroke="#c9c8c1" d="M767.87,-130.64C767.87,-130.64 614.22,-130.64 614.22,-130.64 608.22,-130.64 602.22,-124.64 602.22,-118.64 602.22,-118.64 602.22,-99.92 602.22,-99.92 602.22,-93.92 608.22,-87.92 614.22,-87.92 614.22,-87.92 767.87,-87.92 767.87,-87.92 773.87,-87.92 779.87,-93.92 779.87,-99.92 779.87,-99.92 779.87,-118.64 779.87,-118.64 779.87,-124.64 773.87,-130.64 767.87,-130.64"></path>
+<text text-anchor="middle" x="691.04" y="-113.18" font-family="Helvetica,sans-Serif" font-size="13.00">Hedefli revizyon</text>
+<text text-anchor="middle" x="691.04" y="-97.58" font-family="Helvetica,sans-Serif" font-size="13.00">sorumlu ajana geri bildirim</text>
+</g>
+<!-- den&#45;&gt;rev -->
+<g id="edge11" class="edge">
+<title>den-&gt;rev</title>
+<path fill="none" stroke="#8a8984" d="M528.52,-109.28C548.03,-109.28 571.03,-109.28 593.5,-109.28"></path>
+<polygon fill="#8a8984" stroke="#8a8984" points="593.24,-111.73 600.24,-109.28 593.24,-106.83 593.24,-111.73"></polygon>
+<text text-anchor="middle" x="565.22" y="-115.58" font-family="Helvetica,sans-Serif" font-size="11.00"> sorun var</text>
+</g>
+<!-- sat -->
+<g id="node14" class="node">
+<title>sat</title>
+<path fill="#ffffff" stroke="#c9c8c1" d="M539.88,-42.72C539.88,-42.72 416.2,-42.72 416.2,-42.72 410.2,-42.72 404.2,-36.72 404.2,-30.72 404.2,-30.72 404.2,-12 404.2,-12 404.2,-6 410.2,0 416.2,0 416.2,0 539.88,0 539.88,0 545.88,0 551.88,-6 551.88,-12 551.88,-12 551.88,-30.72 551.88,-30.72 551.88,-36.72 545.88,-42.72 539.88,-42.72"></path>
+<text text-anchor="middle" x="478.04" y="-25.26" font-family="Helvetica,sans-Serif" font-size="13.00">Rapor satırı</text>
+<text text-anchor="middle" x="478.04" y="-9.66" font-family="Helvetica,sans-Serif" font-size="13.00">+ insan onayı kararı</text>
+</g>
+<!-- den&#45;&gt;sat -->
+<g id="edge13" class="edge">
+<title>den-&gt;sat</title>
+<path fill="none" stroke="#8a8984" d="M478.04,-90.89C478.04,-79.55 478.04,-64.47 478.04,-51.34"></path>
+<polygon fill="#8a8984" stroke="#8a8984" points="480.49,-51.57 478.04,-44.57 475.59,-51.57 480.49,-51.57"></polygon>
+<text text-anchor="middle" x="515.04" y="-62.02" font-family="Helvetica,sans-Serif" font-size="11.00"> onay / hak bitti</text>
+</g>
+<!-- rev&#45;&gt;kim -->
+<g id="edge12" class="edge">
+<title>rev-&gt;kim</title>
+<path fill="none" stroke="#8a8984" stroke-dasharray="5,2" d="M601.87,-122.51C527.58,-132.74 433.76,-145.82 433.04,-146.64 410.68,-172.38 418.02,-192.75 433.04,-223.36 433.22,-223.71 433.4,-224.06 433.58,-224.41"></path>
+<polygon fill="#8a8984" stroke="#8a8984" points="431.41,-225.57 437.29,-230.09 435.51,-222.89 431.41,-225.57"></polygon>
+</g>
+<!-- sat&#45;&gt;haf -->
+<g id="edge15" class="edge">
+<title>sat-&gt;haf</title>
+<path fill="none" stroke="#8a8984" stroke-dasharray="5,2" d="M552.09,-36.63C643.71,-54.46 788.21,-83.21 792.04,-87.92 804.02,-102.65 800.71,-113.74 792.04,-130.64 728.86,-253.86 669.31,-265.51 539.04,-312.48 514.74,-321.24 448.71,-317.52 423.04,-320.48 342.53,-329.77 322.85,-335.57 243.04,-349.68 229.36,-352.1 214.97,-354.74 200.77,-357.4"></path>
+<polygon fill="#8a8984" stroke="#8a8984" points="200.35,-354.99 193.93,-358.69 201.26,-359.8 200.35,-354.99"></polygon>
+<text text-anchor="middle" x="790.86" y="-181.7" font-family="Helvetica,sans-Serif" font-size="11.00"> kaydet</text>
+</g>
+<!-- rap -->
+<g id="node15" class="node">
+<title>rap</title>
+<path fill="#ffffff" stroke="#c9c8c1" d="M736.88,-42.72C736.88,-42.72 613.21,-42.72 613.21,-42.72 607.21,-42.72 601.21,-36.72 601.21,-30.72 601.21,-30.72 601.21,-12 601.21,-12 601.21,-6 607.21,0 613.21,0 613.21,0 736.88,0 736.88,0 742.88,0 748.88,-6 748.88,-12 748.88,-12 748.88,-30.72 748.88,-30.72 748.88,-36.72 742.88,-42.72 736.88,-42.72"></path>
+<text text-anchor="middle" x="675.04" y="-25.26" font-family="Helvetica,sans-Serif" font-size="13.00">Rapor Ajanı</text>
+<text text-anchor="middle" x="675.04" y="-9.66" font-family="Helvetica,sans-Serif" font-size="13.00">Excel + yönetici özeti</text>
+</g>
+<!-- sat&#45;&gt;rap -->
+<g id="edge14" class="edge">
+<title>sat-&gt;rap</title>
+<path fill="none" stroke="#8a8984" d="M552.3,-21.36C565.67,-21.36 579.04,-21.36 592.41,-21.36"></path>
+<polygon fill="#8a8984" stroke="#8a8984" points="592.22,-23.81 599.22,-21.36 592.22,-18.91 592.22,-23.81"></polygon>
+</g>
+</g>
+</svg>

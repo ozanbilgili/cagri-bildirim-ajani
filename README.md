@@ -87,6 +87,10 @@ karşılayamıyor:
 
 ## Mimari
 
+![Ajan akış şeması](docs/mimari.png)
+
+Vektörel hâli: [`docs/mimari.svg`](docs/mimari.svg). Aynı akış metin tabanlı (Mermaid) olarak:
+
 ```mermaid
 flowchart LR
     A[Ses kaydı] -->|Whisper| R[Rol Ajanı<br/>TEMSİLCİ / MÜŞTERİ]
@@ -367,7 +371,9 @@ cagri-bildirim-ajani/
 ├── data/
 │   ├── ornek_cagrilar/         # 6 transkript + 2 ses kaydı
 │   └── degerlendirme/          # 42 vakalık altın etiketli set + sonuçlar
-├── docs/ekran_goruntuleri/
+├── docs/
+│   ├── mimari.png / mimari.svg # Ajan akış şeması
+│   └── ekran_goruntuleri/
 └── tests/                      # 49 birim/entegrasyon testi (sahte LLM ile)
 ```
 
