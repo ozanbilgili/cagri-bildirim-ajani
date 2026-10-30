@@ -1,0 +1,18 @@
+TEMSİLCİ: Örnek Portföy, ben Burcu, size nasıl yardımcı olabilirim?
+MÜŞTERİ: Merhaba, ben Derya, bir şey soracaktım aslında.
+TEMSİLCİ: Tabii Derya Hanım, dinliyorum sizi.
+MÜŞTERİ: Şey, bir fonum vardı ya, hani şu o re te kodlu olan, yani Temkinli Değişken Fon Pilotfon Temkinli...
+TEMSİLCİ: Evet, ORT kodlu fonumuzu kastediyorsunuz, doğru mu?
+MÜŞTERİ: Evet, tam olarak o. Onun getiri durumunu, yani ne kadar kazandırdığını merak ediyorum.
+TEMSİLCİ: Tabii, yardımcı olayım hemen. Tam olarak neyi öğrenmek istemiştiniz?
+MÜŞTERİ: Ben aslında bankadaki hesabımda tam olarak ne kadar kâr ettiğimi, yani hesap bazlı net oranı görmek istiyorum.
+TEMSİLCİ: Anlıyorum ama şey... Ben size sadece genel fon getirilerini verebiliyorum.
+MÜŞTERİ: Yani hesap bazlı değil de sadece fonun kendi getirisi mi?
+TEMSİLCİ: Evet, yani günlük, aylık, üç aylık veya yıllık gibi genel oranlar üzerinden bilgi verebilirim.
+MÜŞTERİ: Anladım, peki o zaman bu fonun geçmiş dönem performansları nasıl?
+TEMSİLCİ: Tabii, hemen bakıyorum... Güncel getiri oranımız şu an oldukça iyi seviyelerde.
+MÜŞTERİ: Yani son bir yılda ne kadar yapmış mesela?
+TEMSİLCİ: Yıllık bazda baktığımızda getiri oranımız %... seviyelerinde gerçekleşmiş durumda.
+MÜŞTERİ: Tamam, o zaman ben bu oranlar üzerinden kendi hesabımı bir hesaplayayım...
+TEMSİLCİ: Tabii, başka bir sorunuz var mıydı acaba?
+MÜŞTERİ: Yok sağ olun, bu bilgiler yeterli, teşekkürler.

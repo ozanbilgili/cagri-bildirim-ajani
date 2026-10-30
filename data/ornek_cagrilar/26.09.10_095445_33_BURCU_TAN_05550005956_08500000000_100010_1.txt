@@ -1,0 +1,19 @@
+TEMSİLCİ: Örnek Portföy, ben Burcu, size nasıl yardımcı olabilirim?
+MÜŞTERİ: Merhaba, ben Gülşah, ben aslında bir şikayetimi iletmek için arıyorum.
+TEMSİLCİ: Tabii Gülşah Hanım, sizi dinliyorum, nedir şikayetiniz?
+MÜŞTERİ: Ya ben sizin şu fonları takip ediyorum ama getiriler çok düşük kalmış, yani beklentimin çok altında gitti bu fonlar.
+TEMSİLCİ: Anlıyorum, fon getirileriyle ilgili bir memnuniyetsizliğiniz var sanırım.
+MÜŞTERİ: Evet, yani ne kadar kazanacağımı bilmek istiyorum, bu düşük gidişat beni gerçekten huzursuz ediyor.
+TEMSİLCİ: Haklısınız ama aslında geçmişteki getirilerimiz maalesef gelecek için bir garanti oluşturmuyor.
+MÜŞTERİ: Ama ben bir yönlendirme, yani önümüzdeki dönemde ne beklemeliyim gibi bir şey duymak istiyorum.
+TEMSİLCİ: Anlayışınız için teşekkür ederim ama biz çağrı merkezi üzerinden net bir getiri oranı veya alım satım tavsiyesi veremiyoruz.
+MÜŞTERİ: Ama bu çok saçma, yani sadece bir fikir alsaydım keşke...
+TEMSİLCİ: Konunun daha detaylı değerlendirilmesi için aslında bir uzmanımızla veya yöneticimizle görüşmeniz çok daha sağlıklı olur.
+MÜŞTERİ: Tamam o zaman, ben bu durumu şikayet olarak kaydedin lütfen, mutlaka olsun.
+TEMSİLCİ: Tabii, talebinizi hemen sisteme şikayet olarak kayıt altına alıyorum.
+MÜŞTERİ: Konu benim için çok acil, bir an önce bir çözüm veya bilgi bekliyorum.
+TEMSİLCİ: Merak etmeyin, konuyu aciliyetle ilgili birimimize iletiyorum.
+MÜŞTERİ: Peki, ne zaman döneceksiniz bana?
+TEMSİLCİ: En kısa sürede size geri dönüş sağlanacaktır, süreçle ilgili bilgilendirileceksiniz.
+MÜŞTERİ: Tamamdır, bekliyorum o zaman, iyi günler.
+TEMSİLCİ: İyi günler dilerim, teşekkürler.

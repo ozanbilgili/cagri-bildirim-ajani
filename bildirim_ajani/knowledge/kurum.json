@@ -1,0 +1,59 @@
+{
+  "kurum_adi": "Örnek Portföy Yönetimi A.Ş.",
+  "kisa_ad": "Örnek Portföy",
+  "web_sitesi": "ornekportfoy.com.tr",
+  "cagri_merkezi_hatti": "08500000000",
+  "mobil_uygulama": "Örnek Fon Mobil",
+  "temsilciler": ["Elif Aksoy", "Burcu Tan", "Selin Er", "Kaan Yurt"],
+  "temsilci_varyantlari": {
+    "Elif Aksoy": ["Elif", "Elif Hanım"],
+    "Burcu Tan": ["Burcu", "Burcu Hanım"],
+    "Selin Er": ["Selin", "Selen", "Selin Hanım"],
+    "Kaan Yurt": ["Kaan", "Kağan", "Kaan Bey"]
+  },
+  "enumlar": {
+    "bildirim_turu": ["Bilgi Talebi", "Şikayet", "Öneri", "Beğeni/Teşekkür", "Hat Kesildi", "Diğer"],
+    "bildirimin_konusu": [
+      "Fonlar ve Hizmetlerimiz Hakkında Bilgi",
+      "Alım/Satım Esasları/Operasyonel Süreç",
+      "Fon Getirilerinin Düşüklüğü",
+      "Yatırım Tavsiyesi/Yatırım Danışmanlığı",
+      "Örnek Fon Mobil",
+      "Diğer"
+    ],
+    "muhatap_kurum": ["Örnek Portföy", "Örnek Bank", "Örnek Yatırım", "Diğer Kurumlar"]
+  },
+  "grup_kurumlari": {
+    "Örnek Bank": ["örnek bank", "örnek bankası", "örnekcep", "bankanız", "banka şubesi"],
+    "Örnek Yatırım": ["örnek yatırım", "yatırım şirketiniz", "traderpro"]
+  },
+  "diger_kurumlar": [
+    "Kuzey Bank", "Liman Bankası", "Yıldız Katılım Bankası", "Anka Bank",
+    "Tepe Portföy", "Doğu Yatırım", "Güven Emeklilik"
+  ],
+  "asr_duzeltmeleri": {
+    "Çay Merkezi": "Çağrı Merkezi",
+    "çay merkezi": "Çağrı Merkezi",
+    "Bilot fon": "Pilotfon",
+    "bilot fon": "Pilotfon",
+    "Pilot Fon": "Pilotfon",
+    "Örnek Fon Mobile": "Örnek Fon Mobil",
+    "örnek fon mobile": "Örnek Fon Mobil",
+    "Tebe Portföy": "Tepe Portföy",
+    "tebe portföy": "Tepe Portföy",
+    "örnek cep": "ÖrnekCep"
+  },
+  "kod_olmayan_kisaltmalar": [
+    "TL", "TRY", "USD", "EUR", "GBP", "CHF", "FON", "SPK", "BDDK", "BIST", "TEFAS", "BES",
+    "OKS", "ETF", "KAP", "MKK", "ISIN", "NAV", "VE", "AS", "LTD", "IBAN", "EFT"
+  ],
+  "turkce_kelime_cakisan_kodlar": ["HER"],
+  "rapor_sabitleri": {
+    "bildirim_yontemi": "Telefon",
+    "islem_ozeti": "Müşteri telefonu yanıtlanmıştır.",
+    "islem_ozeti_yanitsiz": "Yanıt verilmemiştir.",
+    "cevaplama_suresi": "0",
+    "ai_duzeltmesi": "Evet",
+    "kaynak": "CM"
+  }
+}

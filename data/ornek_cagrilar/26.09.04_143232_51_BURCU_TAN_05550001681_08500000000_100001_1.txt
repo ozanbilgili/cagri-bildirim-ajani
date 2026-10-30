@@ -1,0 +1,18 @@
+TEMSİLCİ: Örnek Portföy, ben Burcu, nasıl yardımcı olabilirim?
+MÜŞTERİ: Merhabalar, ben Tolga. Şey, bir şikayetim olacaktı aslında.
+TEMSİLCİ: Tabii Tolga Bey, dinliyorum sizi, nedir yaşadığınız sorun?
+MÜŞTERİ: Ya şu Örnek Fon Mobil uygulaması var ya, giriş yaparken sürekli hata veriyor.
+TEMSİLCİ: Uygulamaya girişte mi sorun yaşıyorsunuz tam olarak?
+MÜŞTERİ: Evet, yani uygulamaya girmeye çalışıyorum ama sistem sürekli reddediyor beni.
+TEMSİLCİ: Hangi aşamada hata mesajı alıyorsunuz acaba?
+MÜŞTERİ: Giriş yaptıktan sonra, şu belirli bölümlere geçmeye çalışırken hata çıkıyor, çok can sıkıcı gerçekten.
+TEMSİLCİ: Anlıyorum, bu durum işlemlerinizi mi aksatıyor?
+MÜŞTERİ: Evet, yani fonlarımı kontrol edemiyorum, sürekli bir hata mesajı... Hiç memnun kalmadım bu durumdan.
+TEMSİLCİ: Yaşadığınız aksaklık için özür dileriz, acaba cihazınızın ayarlarını kontrol ettiniz mi?
+MÜŞTERİ: Ayarlar mı? Nasıl yani?
+TEMSİLCİ: Şey, bazen cihaz ayarlarından veya güncellemelerden kaynaklı öyle hatalar olabiliyor aslında.
+MÜŞTERİ: Anladım, yani sorun benden de kaynaklanıyor olabilir diyorsunuz.
+TEMSİLCİ: Ben şimdi tüm teknik gözlemleri ve şikayetinizi sistem kayıtlarına işliyorum, gerekli kontroller yapılacak.
+MÜŞTERİ: Tamamdır, umarım hızlı çözülür, zaten geçici bir durumdur herhalde değil mi?
+TEMSİLCİ: En kısa sürede kontrol edilip süreç takip edilecektir, başka bir sorunuz var mıydı?
+MÜŞTERİ: Yok, teşekkürler, sağ olun, kolay gelsin.

@@ -1,0 +1,27 @@
+{
+  "mod": "ajan",
+  "model": "gemma4:26b-mlx",
+  "vaka": 42,
+  "alan_dogrulugu_yuzde": {
+    "bildirim_turu": 92.9,
+    "bildirimin_konusu": 73.8,
+    "muhatap_kurum": 88.1,
+    "fon_kodu": 100.0,
+    "bildirim_sahibi": 100.0
+  },
+  "kategorik_ortalama_yuzde": 84.9,
+  "tam_dogru_satir_yuzde": 66.7,
+  "fon_kodu_kesinlik_yuzde": 100.0,
+  "fon_kodu_duyarlilik_yuzde": 100.0,
+  "insan_onayina_dusen": 13,
+  "onaysiz_satir_tam_dogru_yuzde": 75.9,
+  "ortalama_sure_sn": 34.7,
+  "ortalama_llm_cagrisi": 7.9,
+  "hata": 0,
+  "asr_stres": false,
+  "enum_disi_deger_yuzde": {
+    "bildirim_turu": 0.0,
+    "bildirimin_konusu": 0.0,
+    "muhatap_kurum": 0.0
+  }
+}

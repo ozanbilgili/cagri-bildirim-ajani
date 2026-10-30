@@ -1,0 +1,5 @@
+TEMSİLCİ: Örnek Portföy Müşteri İletişim Merkezi, ben Burcu, buyurun.
+MÜŞTERİ: merhaba ben fonla ilgili bir şey soracaktım da şey
+TEMSİLCİ: Tabii, dinliyorum efendim.
+MÜŞTERİ: ...
+TEMSİLCİ: Alo? Efendim? Sanırım bağlantı koptu. İyi günler dilerim.

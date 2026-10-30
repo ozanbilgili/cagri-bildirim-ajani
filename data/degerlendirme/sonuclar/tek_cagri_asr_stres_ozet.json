@@ -1,0 +1,27 @@
+{
+  "mod": "tek_cagri",
+  "model": "gemma4:26b-mlx",
+  "vaka": 18,
+  "alan_dogrulugu_yuzde": {
+    "bildirim_turu": 100.0,
+    "bildirimin_konusu": 72.2,
+    "muhatap_kurum": 88.9,
+    "fon_kodu": 100.0,
+    "bildirim_sahibi": 100.0
+  },
+  "kategorik_ortalama_yuzde": 87.0,
+  "tam_dogru_satir_yuzde": 66.7,
+  "fon_kodu_kesinlik_yuzde": 100.0,
+  "fon_kodu_duyarlilik_yuzde": 100.0,
+  "insan_onayina_dusen": 0,
+  "onaysiz_satir_tam_dogru_yuzde": 66.7,
+  "ortalama_sure_sn": 6.2,
+  "ortalama_llm_cagrisi": 1.0,
+  "hata": 0,
+  "asr_stres": true,
+  "enum_disi_deger_yuzde": {
+    "bildirim_turu": 0.0,
+    "bildirimin_konusu": 0.0,
+    "muhatap_kurum": 5.6
+  }
+}

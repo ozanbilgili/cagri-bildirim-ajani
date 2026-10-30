@@ -1,0 +1,17 @@
+TEMSİLCİ: Örnek Portföy, ben Burcu, nasıl yardımcı olabilirim?
+MÜŞTERİ: Merhaba, bir fon hakkında bilgi alacaktım da, yani şöyle...
+TEMSİLCİ: Tabii, hangi fon hakkında bilgi almak istemiştiniz?
+MÜŞTERİ: Şey, Kuzey Bank tarafındaki bir fon vardı, onun alım satım komisyonları ne kadar acaba?
+TEMSİLCİ: Anlıyorum, bahsettiğiniz fonun tam adını veya kodunu iletebilir misiniz?
+MÜŞTERİ: Kodunu tam hatırlayamıyorum ama Kuzey Bank'ın fonu işte, komisyon oranlarını öğrenmem gerekiyor.
+TEMSİLCİ: Anladım fakat... bahsettiğiniz bu fon bizim ürünlerimiz arasında yer almıyor.
+MÜŞTERİ: Yani, sizden bilgi alamayacak mıyım?
+TEMSİLCİ: Maalesef, bu fon Örnek Portföy ürünleri kapsamında olmadığı için detayları iletemiyorum.
+MÜŞTERİ: Anladım, peki ne yapmam gerekiyor o zaman?
+TEMSİLCİ: İlgili fonun ait olduğu kurumun, yani Kuzey Bank'ın kendi web sitesini kontrol edebilirsiniz.
+MÜŞTERİ: Tamam, web sitesinden bakabilirim yani.
+TEMSİLCİ: Evet, ya da doğrudan Kuzey Bank'ın çağrı merkezini arayarak bilgi almanız daha doğru olacaktır.
+MÜŞTERİ: Anladım, sağ olun.
+TEMSİLCİ: Rica ederim, başka bir sorunuz var mıydı?
+MÜŞTERİ: Yok, teşekkürler, iyi günler.
+TEMSİLCİ: İyi günler dileriz.

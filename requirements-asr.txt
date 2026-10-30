@@ -1,0 +1,4 @@
+# Ses dosyasından transkript üretmek için (opsiyonel)
+faster-whisper>=1.0
+# faster-whisper 1.2, PyAV 16+ ile uyumsuz (decode_audio metadata_errors hatası)
+av>=12,<16
